@@ -1,5 +1,8 @@
 package ifrn.pi.eventos.models;
 
+import javax.persistence.Entity;
+
+@Entity
 public class Evento {
 
 	private String nome;
